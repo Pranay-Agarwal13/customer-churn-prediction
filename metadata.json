@@ -1,0 +1,6 @@
+{
+  "name": "ChurnLens - Telecom Intelligence & Churn Analytics",
+  "description": "Portfolio-grade customer churn prediction, TreeSHAP interpretability, and automated retention playbook simulator built on the IBM Telco Churn dataset.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

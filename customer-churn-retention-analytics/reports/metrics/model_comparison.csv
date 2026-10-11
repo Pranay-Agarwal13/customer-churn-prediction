@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-Score,ROC-AUC,Optimal_Threshold,Recall_at_Optimal,F1_at_Optimal
+Logistic Regression,0.7431,0.5104,0.7861,0.6189,0.847,0.57,0.754,0.6409
+Random Forest,0.7594,0.5319,0.7807,0.6327,0.844,0.55,0.7487,0.64
+XGBoost,0.763,0.5382,0.754,0.6281,0.8445,0.43,0.8102,0.6352

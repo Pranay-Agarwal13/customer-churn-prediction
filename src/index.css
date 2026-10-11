@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --surface: #0f131d;
+    --surface-dim: #0f131d;
+    --surface-bright: #353944;
+    --surface-container-lowest: #0a0e18;
+    --surface-container-low: #171b26;
+    --surface-container: #1c1f2a;
+    --surface-container-high: #262a35;
+    --surface-container-highest: #313540;
+    --on-surface: #dfe2f1;
+    --on-surface-variant: #bdc8d1;
+    --outline: #87929a;
+    --outline-variant: #3e484f;
+    --primary: #8ed5ff;
+    --primary-container: #38bdf8;
+    --on-primary: #00354a;
+    --on-primary-container: #004965;
+    --secondary: #ffb2b7;
+    --secondary-container: #b50036;
+    --on-secondary-container: #ffc2c4;
+    --tertiary: #56e5a9;
+    --tertiary-container: #30c88f;
+    --on-tertiary-container: #004e34;
+    --surface-tint: #7bd0ff;
+  }
+
+  body {
+    background-color: #0f131d;
+    color: #dfe2f1;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Custom design tokens helper classes */
+.bg-surface { background-color: #0f131d; }
+.bg-surface-dim { background-color: #0f131d; }
+.bg-surface-bright { background-color: #353944; }
+.bg-surface-container-lowest { background-color: #0a0e18; }
+.bg-surface-container-low { background-color: #171b26; }
+.bg-surface-container { background-color: #1c1f2a; }
+.bg-surface-container-high { background-color: #262a35; }
+.bg-surface-container-highest { background-color: #313540; }
+.bg-primary-container { background-color: #38bdf8; }
+.bg-secondary-container { background-color: #b50036; }
+.bg-tertiary-container { background-color: #30c88f; }
+
+.text-on-surface { color: #dfe2f1; }
+.text-on-surface-variant { color: #bdc8d1; }
+.text-primary { color: #8ed5ff; }
+.text-on-primary-container { color: #004965; }
+.text-secondary { color: #ffb2b7; }
+.text-tertiary { color: #56e5a9; }
+.text-outline { color: #87929a; }
+.text-outline-variant { color: #3e484f; }
+.text-surface-tint { color: #7bd0ff; }
+
+.font-metric-xl { font-family: 'JetBrains Mono', monospace; font-size: 2.25rem; line-height: 2.5rem; letter-spacing: -0.04em; }
+.font-metric-md { font-family: 'JetBrains Mono', monospace; font-size: 1.25rem; line-height: 1.5rem; letter-spacing: -0.02em; }
+.font-metric-sm { font-family: 'JetBrains Mono', monospace; font-size: 0.875rem; line-height: 1.125rem; }
+.font-label-caps { font-family: 'JetBrains Mono', monospace; font-size: 0.6875rem; line-height: 1rem; letter-spacing: 0.08em; }
+.font-headline-lg { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 2rem; line-height: 2.5rem; }
+.font-headline-md { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.25rem; line-height: 1.75rem; }
+.font-headline-sm { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1rem; line-height: 1.5rem; }
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0e18;
+}
+::-webkit-scrollbar-thumb {
+  background: #262a35;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #38bdf8;
+}
